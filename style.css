@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    margin-left: 550px;
+    margin-top: 30px;
+    font-size: 35px;
+    padding: 30px;
+    display: inline-block;
+    border: 3px solid rgb(73, 73, 73);
+    border-radius: 50px;
+    background-color: rgba(3, 3, 3, 0.664);
+    width: 700px;
+    float: left;
+}
+body{
+    background-color: rgb(33, 33, 85);
+    background-image: ();
+}
+
+label{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(19, 16, 16);
+    color: white;
+    
+}
+input{
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
+button{
+    margin-left: 130px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(204, 39, 39);
+    color: white;
+    border: 2px solid #4CAF50;
+    
+
+}
+.mail{
+    width: 110px;
+}
+.firstly{
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 80px 0 rgba(190, 18, 18, 0.664), 0 6px 20px 0 rgb(126, 126, 126);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(87, 33, 33);
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(2, 2, 2);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
